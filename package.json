@@ -1,0 +1,49 @@
+{
+  "name": "veneno-traffic-bot",
+  "version": "1.0.1",
+  "description": "This script generates traffic for websites using a Tor Proxy Pool or any proxy server for which you desire.",
+  "main": "index.js",
+  "dependencies": {
+    "electron": "^23.1.1",
+    "jquery": "^3.6.0",
+    "nightmare": "^2.8.0",
+    "npm": "^9.5.1",
+    "platform": "^1.3.6"
+  },
+  "scripts": {
+    "test proxy 1": "node index.js --url http://foodblog.click/ --proxy p.webshare.io --port 80 --user ernkxcyk-rotate --pass 0963djow98v2 --windows 1 --time random --referrals yes",
+    "test proxy no pass": "node index.js --url http://foodblog.click/ --proxy socks5://hephaestus.p.shifter.io --port 20534 --windows 1 --time 300",
+    "test no proxy": "node index.js --url http://foodblog.click/ --windows 1 --time random --referrals yes",
+    "test ramdom time": "node index.js --url http://foodblog.click/ --windows 1 --time random --referrals yes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasveneno/trafficbot.git"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "ruby",
+    "bot",
+    "http",
+    "privacy",
+    "https",
+    "proxy",
+    "seo",
+    "proxy-server",
+    "seotools",
+    "seo-optimization",
+    "useragent",
+    "traffic-generation",
+    "nightmarejs",
+    "traffic-generator",
+    "seo-tools",
+    "traffic-bot"
+  ],
+  "author": "Lucas Coelho de Oliveira Lima",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucasveneno/trafficbot/issues"
+  },
+  "homepage": "https://github.com/lucasveneno/trafficbot#readme"
+}
